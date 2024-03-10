@@ -1,0 +1,27 @@
+body {background-color: whitesmoke;}
+
+.foot {padding-left: 10%;padding-top: 0%;
+    padding-bottom: 20%; padding-right: 10%;margin: 10%; 
+    background-image: url('bgimg.png');background-repeat: 
+    no-repeat;background-size: cover;
+}
+.heading {text-align: center;text-decoration: underline;
+    background-color: aqua;
+   }
+   img {height: 50px;width: 50px;float: left;}
+   p {font-weight: bolder;}
+.link {margin-left: 25%;margin-top: 15%;}
+.a {font-size: 150%; margin-right: 20%;
+
+}
+.b {font-size: 150%; margin-right: 20%;
+
+}
+.c {font-size: 150%; margin-right: 20%;
+
+}
+.d {font-size: 150%; margin-right: 20%;
+
+}
+a:link,a:visited {background-color: whitesmoke; color: red;}
+a:hover,a:active {background-color: black; color: white;}
