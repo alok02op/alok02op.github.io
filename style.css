@@ -1,27 +1,28 @@
-body {background-color: whitesmoke;}
 
-.foot {padding-left: 10%;padding-top: 0%;
-    padding-bottom: 20%; padding-right: 10%;margin: 10%; 
-    background-image: url('bgimg.png');background-repeat: 
-    no-repeat;background-size: cover;
+body {background-image: url(bg.jpg.avif); background-attachment: fixed;
+    background-repeat: no-repeat;background-size: cover;}
+
+.foot { background-image: url('bgimg.png');
+    background-repeat:no-repeat;background-size: cover;
+    height: 600px;margin-left:13%;margin-right: 12%;
+    
 }
-.heading {text-align: center;text-decoration: underline;
-    background-color: aqua;
+
+.foot > h2 { color:rgb(170,39,39);font-family: verdana;
+        padding-top: 5px;padding-left: 10px;}
+
+
+
+.heading {text-decoration:underline;color:rgb(19,19,117);background-color: aqua;
+    margin-top: 150px;display: inline-block;margin-left: 40%;
+    font-family: sans-serif;
    }
-   img {height: 50px;width: 50px;float: left;}
-   p {font-weight: bolder;}
-.link {margin-left: 25%;margin-top: 15%;}
-.a {font-size: 150%; margin-right: 20%;
 
-}
-.b {font-size: 150%; margin-right: 20%;
+.link {padding-left: 35%;padding-top: 10%;}
 
-}
-.c {font-size: 150%; margin-right: 20%;
+a:link,a:visited {background-color: rgb(181,227,170); color:#1e1eb1;
+    font-size: 150%;margin-right: 20%; padding: 2%;}
 
-}
-.d {font-size: 150%; margin-right: 20%;
 
-}
-a:link,a:visited {background-color: whitesmoke; color: red;}
-a:hover,a:active {background-color: black; color: white;}
+a:hover,a:active {background-color: rgb(231,234,154); color:rgb(240,10,160);
+    font-size: 150%; margin-right: 20%;padding: 2%;}
