@@ -12,7 +12,6 @@ body {
 }
 
 .link { 
-    border: 10px dotted red;
     background-image: url('bgimg.png');
     background-repeat:no-repeat;background-size: cover;
     position: absolute;top: 30%; left: 10%; width: 80%;
