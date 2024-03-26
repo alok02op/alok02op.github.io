@@ -41,13 +41,13 @@ body {
 
 a:link,a:visited {
     background-color: rgb(181,227,170); color:#1e1eb1;
-    /* font-size: 150%; padding: 15px; */
+    padding: 2%;
 }
 
 
 a:hover,a:active {
     background-color: white; color:rgb(240,10,160);
-     /* font-size: 150%; padding: 15px; */
+    padding: 2%;
 }
 
 /* ----------------------------------------------------------------------------- */
