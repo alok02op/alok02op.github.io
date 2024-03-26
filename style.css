@@ -6,8 +6,9 @@ body {
 }
 
 .heading {
+    padding: 2%;
     text-decoration:underline;color:rgb(19,19,117);background-color: aqua;
-    font-family: sans-serif; position: fixed;top: 20%;
+    font-family: sans-serif; position: fixed;top: 18%;
     left: 40%;
 }
 
@@ -40,13 +41,13 @@ body {
 
 a:link,a:visited {
     background-color: rgb(181,227,170); color:#1e1eb1;
-    padding: 2%;
+    padding: 3%;
 }
 
 
 a:hover,a:active {
     background-color: white; color:rgb(240,10,160);
-    padding: 2%;
+    padding: 3%;
 }
 
 /* ----------------------------------------------------------------------------- */
