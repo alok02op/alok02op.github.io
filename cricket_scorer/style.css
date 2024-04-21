@@ -7,40 +7,39 @@
 .header {
     color: white;
     background-color: green;
-    width: 100%;
+    width: 100vw;
     position: fixed;top: 0;
-    height: 5%;
-    padding: 10px;
+    height: 60px;
     z-index: 1;
+    display: grid;
+    grid-template-columns: 1fr 4fr 4fr 1fr;
+    overflow: hidden;
+    place-items: center;
 }
 .header > img {
     background-color: green;
-    position: absolute;
-    left: 2%;
+    justify-self: end;
+    position: relative;
+    right: 10px;
 }
 .container_head {
-    background-color: green;
-    position: absolute;
-    left: 5%;
+    background-color: green;justify-self: start;
 }
 #heading {
     background-color: green;
-    display: inline-block;
 }
 
 .noti_icon {
     background-color: green;
-    position: absolute;
-    right: 12%;
-    top: 20px;
+    justify-self: end;
 }
 .noti_icon > img {background-color: green;height: 32px;width: 32px;}
 
 .settings-icon {
+    position: relative;right: 5vmin;top: 5px;
+    align-self: self-start;justify-self: end;
     background-color: green;
     font-size: 40px;
-    position: absolute;
-    right:5%;top: 10px;
   }
 /* -------------------------------------------------------------------------------------------------------------------- */
 #frame {
