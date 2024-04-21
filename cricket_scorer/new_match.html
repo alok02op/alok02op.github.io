@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Title</title>
+    <link rel="stylesheet" href="new_match.css">
+</head>
+<body>
+    <section class="teams">
+        <h3>Teams</h3>
+        <div class="box1">
+            <input type="text" placeholder="Host Team" id="host_team"><br>
+            <input type="text" placeholder="Visitor Team" id="visitor_team">
+        </div>
+    </section>
+    <section class="toss">
+        <h3>Toss won by?</h3>
+        <div class="box2">
+            <input type="radio" name="toss_winner" id="teamH">
+            <label for="teamH" style="background-color: white;">Host Team</label>
+            <input type="radio" name="toss_winner" id="teamV">
+            <label for="teamV" style="background-color: white;">Visitor Team</label>
+        </div>
+    </section>
+    <section class="toss_result">
+        <h3>Opted to?</h3>
+        <div class="box3">
+            <input type="radio" name="bat_bowl" id="bat">
+            <label for="teamH" style="background-color: white;">Bat</label>
+            <input type="radio" name="bat_bowl" id="bowl">
+            <label for="teamV" style="background-color: white;">Bowl</label>
+        </div>
+    </section>
+    <section class="overs">
+        <h3>Overs?</h3>
+        <div class="box4">
+            <input type="text" placeholder="16" id="over_num"><br>
+        </div>
+    </section>
+    <section class="submit">
+        <a href="" id="advanced">Advanced settings</a>
+        <a id="button" href="inning_1.html" target="_parent">Start match</a>
+    </section>
+</body>
+</html>

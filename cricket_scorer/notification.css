@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(230, 230, 200);
+}
+
+.header {
+    color: white;
+    background-color: green;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+}
+#heading {
+    background-color: green;
+    display: inline-block;
+    position: absolute;
+    left: 40%;
+}
+#back {
+    background-color: green;
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    position: absolute;
+    left: 5%;
+    top: 0px;
+}
+
+.flex {
+    text-align: center;
+    position: absolute;
+    top: 45%;left: 40%;
+    font-size: xx-large;
+}
+img {
+    height: 100px;
+    width: 100px;
+}
