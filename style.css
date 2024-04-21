@@ -104,7 +104,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
+    position: sticky;
     bottom: 0;
     width: 100vw;
     height: 10vh;
