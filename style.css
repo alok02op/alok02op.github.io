@@ -36,7 +36,7 @@ body {
     height: 80vh;
     width: 100vw;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1.5fr 0.5fr;
     gap: 2vmin;
   }
   .about_container{
@@ -78,11 +78,11 @@ body {
     align-items: center;
   }
   button{
-    padding: 1.5vmin;
-    font-size: 2vmin;
+    padding: 0.2vmin;
+    font-size: 1.5vmin;
     background-color: #351270;
     color: #C8C6D7;
-    border-radius: 1.5vmin;
+    border-radius: 0.2vmin;
     border: none;
   }
   ol {
