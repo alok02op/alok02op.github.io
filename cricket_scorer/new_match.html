@@ -10,8 +10,8 @@
     <section class="teams">
         <h3>Teams</h3>
         <div class="box1">
-            <input type="text" placeholder="Host Team" id="host_team"><br>
-            <input type="text" placeholder="Visitor Team" id="visitor_team">
+            <input type="text" placeholder="Host Team" id="host_team" required><br>
+            <input type="text" placeholder="Visitor Team" id="visitor_team" required>
         </div>
     </section>
     <section class="toss">
@@ -35,12 +35,35 @@
     <section class="overs">
         <h3>Overs?</h3>
         <div class="box4">
-            <input type="text" placeholder="16" id="over_num"><br>
+            <input type="text" placeholder="16" id="over_num" required><br>
         </div>
     </section>
     <section class="submit">
-        <a href="" id="advanced">Advanced settings</a>
+        <a href="advanced.html" id="advanced" target="_parent">Advanced settings</a>
         <a id="button" href="inning_1.html" target="_parent">Start match</a>
     </section>
+
+    <script>
+        let box2 = document.querySelector(".box2");
+        let host_team = document.querySelector("#host_team");
+        let visitor_team = document.querySelector("#visitor_team");
+        let button = document.querySelector("#button");
+        let body = document.querySelector("body");
+
+        function changeName(){
+            if(host_team.value !=""){
+            box2.children[1].innerHTML = host_team.value;
+        }else{
+            box2.children[1].innerHTML = "Host Team";
+        }
+
+        if(visitor_team.value !=""){
+            box2.children[3].innerHTML = visitor_team.value;
+        }else{
+            box2.children[3].innerHTML = "Visitor Team";
+        }}
+        body.addEventListener("mouseover",changeName);
+
+    </script>
 </body>
 </html>

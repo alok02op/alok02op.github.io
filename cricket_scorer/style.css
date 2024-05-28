@@ -6,46 +6,31 @@
 
 .header {
     color: white;
-    background-color: green;
     width: 100vw;
     position: fixed;top: 0;
-    height: 60px;
-    z-index: 1;
+    height: 8%;
     display: grid;
     grid-template-columns: 1fr 4fr 4fr 1fr;
-    overflow: hidden;
-    place-items: center;
+    overflow: hidden;gap: 10px;
+    justify-items: end;
+    align-items: center;
 }
-.header > img {
-    background-color: green;
-    justify-self: end;
-    position: relative;
-    right: 10px;
-}
-.container_head {
-    background-color: green;justify-self: start;
-}
-#heading {
-    background-color: green;
+.bgcolor{background-color: #ff7200;}
+.heading{justify-self: start;}
+.noti_icon>img{width: 40px;height:40px;}
+.setting_icon>img{width: 32px;height:32px;}
+.setting_icon{
+    height: 100%;width: 100%;
+    justify-self: start;
+    display: flex;justify-content: center;align-items: center;
 }
 
-.noti_icon {
-    background-color: green;
-    justify-self: end;
-}
-.noti_icon > img {background-color: green;height: 32px;width: 32px;}
 
-.settings-icon {
-    position: relative;right: 5vmin;top: 5px;
-    align-self: self-start;justify-self: end;
-    background-color: green;
-    font-size: 40px;
-  }
 /* -------------------------------------------------------------------------------------------------------------------- */
 #frame {
-    position: fixed;top: 7%;
+    position: fixed;top: 9%;
     width: 100%;
-    height: 83%;
+    height: 80%;
 }
 /* ----------------------------------------------------------------------------------------------------------------------------- */
 .footer {
@@ -53,13 +38,15 @@
     background-color: white;
     width: 80%;height: 10%;
     margin-left: 10%;
-    border-radius: 15px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: scroll;
 }
-
-.box1 {position: absolute;left: 15%;top: 25%;}
-.box2 {position: absolute;left: 50%;top: 25%;}
-.box3 {position: absolute;right: 15%;top: 25%;}
-
+a:active{
+    background-color: rgb(100, 100, 100);
+}
 img {height: 32px;width: 32px;background-color: white;}
 .box1,.box2,.box3 {
     background-color: white;
@@ -67,3 +54,7 @@ img {height: 32px;width: 32px;background-color: white;}
     text-decoration: none;
     text-align: center;
 }
+.box1,.box1>img{
+    background-color: #ff7200;
+}
+/* ---------------------------------------------------------------------------------------------------------------------------------------- */

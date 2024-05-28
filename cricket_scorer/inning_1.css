@@ -1,36 +1,33 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: rgb(230, 230, 200);
 }
+body{background-color: rgb(230, 230, 200);}
 .header {
+    background-color: #ff7200;
     color: white;
-    background-color: green;
     width: 100%;
-    height: 50px;
-    padding: 10px;
+    height: 60px;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    place-items: center;
 }
-
-#heading {
-    background-color: green;
-    display: inline-block;
-    position: absolute;
-    left: 40%;
+#heading{
+    position: relative;
+    right: 10vw;
 }
 #back {
-    background-color: green;
     text-decoration: none;
     color: white;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bolder;
-    position: absolute;
-    left: 5%;
-    top: 0px;
 }
+#back:active{font-size: 35px;}
 /* ----------------------------------------------------------------------------------------------------------------- */
 
 .striker {
-    color: green;
+    color: #ff7200;
     margin: 15px;
     padding: 10px;
 }
@@ -38,17 +35,19 @@ input {
     background-color: whitesmoke;
     margin: 30px;
     padding: 10px;
-    width: 100%;
+    max-width: 95%;
+    width: 90%;
 }
 #button {
     display: inline-block;
-    width: 90%;
+    width: 90%;height: 4vh;
     font-size: 200%;
     color: white;
     position: relative;left: 5%;
-    background-color: green;
+    background-color:#ff7200;
     border-radius: 10px;
     padding: 15px;
     text-align: center;
     text-decoration: none;
 }
+#button:active{font-size: 180%;}

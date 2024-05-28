@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inning_1 Score</title>
+    <link rel="stylesheet" href="inning1_score.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <a class="back" href="index.html" target="_self">&#8592;</a>
+        <h1 class="heading"> <span id="A">teamH</span> v/s <span id="B">teamV</span> </h1>
+        <img src="graph-report.png" style="justify-self: end;" alt="graph-report" height="32" width="32">
+        <img src="scoreboard.png" alt="scoreboard" height="32" width="32">
+    </header>
+
+    <section class="section1 section">
+        <div>
+            <span>teamH, 1st inning</span>
+            <span id="teamH_score" style="font-size: 3vmin;"> 0 - 0 <span style="color: #808080;">(0.0)</span></span>
+        </div>
+        <div>
+            <span>CRR</span>
+            <span id="crr">0.00</span>
+        </div>
+    </section>
+
+    <section class="section2 section">
+        <table style="height: 100%;width: 80vw;">
+            <tr>
+                <th>Batsman</th>
+                <th>R</th>
+                <th>B</th>
+                <th>4s</th>
+                <th>6s</th>
+                <th>SR</th>
+            </tr>
+            <tr><td colspan="6"><hr></td></tr>
+            <tr id="striker">
+                <td><span>striker</span>*</td>
+                <td><span>0</span></td>
+                <td><span>0</span></td>
+                <td><span>0</span></td>
+                <td><span>0</span></td>
+                <td><span>0.00</span></td>
+            </tr>
+            <tr id="non_striker">
+                <td><span>non-striker</span></td>
+                <td><span>0</span></td>
+                <td><span>0</span></td>
+                <td><span>0</span></td>
+                <td><span>0</span></td>
+                <td><span>0.00</span></td>
+            </tr>
+            <tr>
+                <th>Bowler</th>
+                <th>O</th>
+                <th>M</th>
+                <th>R</th>
+                <th>W</th>
+                <th>ER</th>
+            </tr>
+            <tr><td colspan="6"><hr></td></tr>
+            <tr id="bowler">
+                <td><span>bowler_name</span></td>
+                <td><span>0.0</span></td>
+                <td><span>0</span></td>
+                <td><span>0</span></td>
+                <td><span>0</span></td>
+                <td><span>0.00</span></td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="section3 section">
+        <table style="height: 100%;width: 70vw;">
+            <tr>
+                <th>This over:</th>
+                <td><span></span></td>
+                <td><span></span></td>
+                <td><span></span></td>
+                <td><span></span></td>
+                <td><span></span></td>
+                <td><span></span></td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="section4 section">
+        <div id="wide_box">
+            <input type="radio" name="delivery_type" id="wide">
+            <label for="wide">Wide</label>
+        </div>
+        <div id="no_ball_box">
+            <input type="radio" name="delivery_type" id="no_ball">
+            <label for="no_ball">No Ball</label>
+        </div>
+        <div id="byes_box">
+            <input type="radio" name="run_type" id="byes">
+            <label for="byes">Byes</label>
+        </div>
+        <div id="leg_byes_box">
+            <input type="radio" name="run_type" id="leg_byes">
+            <label for="leg_byes">Leg Byes</label>
+        </div>
+        <div id="wicket_box">
+            <input type="radio" name="wicket" id="wicket">
+            <label for="wicket">Wicket</label>
+        </div>
+        <button id="retire" class="button">
+            Retire
+        </button>
+        <button id="swap" class="button">
+            Swap Batsman
+        </button>
+    </section>
+    
+    <section class="section5 section">
+        <div class="div1">
+            <button class="button">Undo</button>
+            <button class="button">Partnerships</button>
+            <button class="button">Extras</button>
+        </div>
+        <div class="div2">
+            <div>0</div>
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>...</div>
+        </div>
+    </section>
+
+    <script>
+        
+    </script>
+</body>
+</html>
