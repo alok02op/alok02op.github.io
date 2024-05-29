@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CourseDetails</title>
+    <style>
+        #heading{
+            margin-bottom: 3vh;
+            margin-top: 10vh;
+            font-size: 3.5rem;
+            text-align: center;
+        }
+        ol{
+            font-weight: 900;
+            font-size: 2rem;
+            margin-left: 10vw;
+        }
+        ul{
+            list-style-type: circle;
+            font-weight: 100;
+            margin-left: 5vw;
+
+        }
+    </style>
+</head>
+<body>
+    <h1 id="heading">Index</h1>
+    <ol>
+        <li>
+            <p>Understanding computer programs</p>
+            <ul>
+                <li>What is computer program and algorithm </li>
+                <li>What is flowchart</li>
+                <li>What is pseudocode</li>
+                <li>Examples</li>
+                <li>Setting up c++ environment</li>
+                <li>Hello world program</li>
+                <li>Brain teasers</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>Programming Fundamentals I</p>
+            <ul>
+                <li>Data Types and ranges</li>
+                <li>Type modifiers</li>
+                <li>Input output in C++</li>
+                <li>If else</li>
+                <li>Loops - while, do while, for</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>Programming Fundamentals II</p>
+            <ul>
+                <li>Break and continue</li>
+                <li>Switch</li>
+                <li>Operators - arithmetic, relational, logical, bitwise, assignment</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>Pattern Questions</p>
+            <ul>
+                <li>Introductory examples</li>
+                <li>Difficult examples</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>Basics of Number System</p>
+            <ul>
+                <li>Binary number system</li>
+                <li>Reverse a number</li>
+                <li>Armstrong number</li>
+                <li>Prime numbers</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>Functions</p>
+            <ul>
+                <li>Introduction to functions</li>
+                <li>Examples</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>Space and time complexity</p>
+            <ul>
+                <li>Definition and basics</li>
+                <li>Polynomial evaulation</li>
+                <li>Master theorem</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>Arrays</p>
+            <ul>
+                <li>Introduction to arrays</li>
+                <li>Linear search and Binary search</li>
+                <li>Sorting algorithms</li>
+                <li>STL sort</li>
+                <li>Max subarray sum</li>
+                <li>Pair sum problem</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>2D arrays</p>
+            <ul>
+                <li>Introduction and searching</li>
+                <li>Example questions</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>Character arrays</p>
+            <ul>
+                <li>Introduction and input</li>
+                <li>Palindromic arrays</li>
+                <li>Largest word in a string</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>Strings</p>
+            <ul>
+                <li>Sorting a string</li>
+                <li>STL functions on strings</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>Questions</p>
+            <ul>
+                <li>Sum of all submatrices in a matrix</li>
+                <li>Max sum submatrix</li>
+                <li>Searching in sorted matrix</li>
+                <li>Rain water harvesting</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>Questions</p>
+            <ul>
+                <li>Target sum triplets</li>
+                <li>Max circular sum</li>
+                <li>Max freq character</li>
+                <li>String questions</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>Pointers</p>
+            <ul>
+                <li>& operator</li>
+                <li>Introduction to pointers</li>
+                <li>Dereference operator</li>
+                <li>Pass by reference and Pass by value</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>Dynamic Memory Allocation</p>
+            <ul>
+                <li>Compile time and run time</li>
+                <li>Heap and Stack</li>
+                <li>New, delete</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>Bit Manipulation</p>
+            <ul>
+                <li>Get, Set, clear, update</li>
+                <li>Is Power of 2</li>
+                <li>Number of ones</li>
+                <li>Generate subsets</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>Questions</p>
+            <ul>
+                <li>Unique number in an array of duplicates</li>
+                <li>2 unique numbers in an array of duplicates</li>
+                <li>Unique number in an array of triplets</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>Number theory basics</p>
+            <ul>
+                <li>Prime sieve</li>
+                <li>Counting divisors</li>
+                <li>Euclid's algo for GCD</li>
+                <li>Inclusion exclusion principle</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>Questions</p>
+            <ul>
+                <li>GCD, LCM</li>
+                <li>Divisible subarrays</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>Introduction to Recursion</p>
+            <ul>
+                <li>Call stack</li>
+                <li>Fibonacci numbers</li>
+                <li>Factorial</li>
+                <li>Fast power</li>
+                <li>First occurence and last occurrence</li>
+                <li>Increasing, Decreasing order</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>Recursion - II</p>
+            <ul>
+                <li>Tower of hanoi</li>
+                <li>Reverse string</li>
+                <li>Replace pi</li>
+                <li>Remove duplicates</li>
+                <li>Move all x</li>
+                <li>Subsequence generation</li>
+                <li>Generate permutations</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>Recursion - III</p>
+            <ul>
+                <li>Permutation</li>
+                <li>Count path</li>
+                <li>0-1 Knapsack</li>
+                <li>Tiling problem</li>
+                <li>Friends pairing problem</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>Backtracking</p>
+            <ul>
+                <li>Rat in maze problem</li>
+                <li>N-queen problem</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>Divide and Conquer</p>
+            <ul>
+                <li>Merge sort</li>
+                <li>Quick sort</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>More sorting techniques</p>
+            <ul>
+                <li>Counting sort</li>
+                <li>DNF algorithm</li>
+                <li>Wave sort</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>STL</p>
+            <ul>
+                <li>sort function</li>
+                <li>Pair class</li>
+                <li>Other STL functions</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>Generic Programming</p>
+            <ul>
+                <li>Templates</li>
+                <li>Iterators, comparators</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>Vectors</p>
+            <ul>
+                <li>Intro</li>
+                <li>Methods</li>
+                <li>Sorting</li>
+                <li>Template</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>OOPS concepts</p>
+            <ul>
+                <li>Classes and objects</li>
+                <li>Data members and functions</li>
+                <li>Getters, setters</li>
+                <li>Constructor & its types</li>
+                <li>Shallow and deep copy</li>
+                <li>Copy assignment</li>
+                <li>Destructor</li>
+                <li>Initialisation list</li>
+                <li>Overloading</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>Linked List</p>
+            <ul>
+                <li>Introduction and implementation</li>
+                <li>Insertion in linked list</li>
+                <li>Searching in linked list</li>
+                <li>Deletion in linked list</li>
+                <li>Reverse a linked list - Iterative and recursive solution</li>
+                <li>K reverse problem</li>
+                <li>Floyd's cycle detection and removal</li>
+                <li>Double linked list</li>
+                <li>Circular linked list</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>Challenges</p>
+            <ul>
+                <li>K append</li>
+                <li>Even after odd</li>
+                <li>Intersection point</li>
+                <li>Merge 2 sorted linked lists</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>Stacks</p>
+            <ul>
+                <li>Introduction</li>
+                <li>Implement using array</li>
+                <li>Implement using linked list</li>
+                <li>Reverse a stack</li>
+                <li>Balanced parenthesis</li>
+                <li>Infix, prefix, posfix expression evaulation</li>
+                <li>Infix to prefix using stack</li>
+                <li>Infix to posfix using stack</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>Queues</p>
+            <ul>
+                <li>Introduction</li>
+                <li>Implement using array</li>
+                <li>Implement using linked list</li>
+                <li>Implement stack using queue</li>
+                <li>Implement queue using stack</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>Deque</p>
+            <ul>
+                <li>Introduction</li>
+                <li>Maximum element</li>
+                <li>Max length unique character substring</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>Questions</p>
+            <ul>
+                <li>Histogram area</li>
+                <li>Circular tour</li>
+                <li>Balanced parenthesis</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>Binary Trees</p>
+            <ul>
+                <li>Introduction</li>
+                <li>Preorder, inorder, postorder</li>
+                <li>Level order</li>
+                <li>Sum at level K</li>
+                <li>Height and Diameter of Binary Tree</li>
+                <li>BFS traversal</li>
+                <li>DFS traversal</li>
+                <li>Count and sum nodes</li>
+                <li>Height balanced tree</li>
+                <li>Build balanced tree from array</li>
+                <li>Different views of binary tree</li>
+                <li>Nodes at distance K</li>
+                <li>Lowest common ancestor</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>Questions</p>
+            <ul>
+                <li>Build from inorder and preorder</li>
+                <li>Sum at level K</li>
+                <li>Sum replacement problem</li>
+                <li>Maximum sum path</li>
+                <li>Shortest distance between nodes</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>Binary Search Tree</p>
+            <ul>
+                <li>Introduction</li>
+                <li>Implementation and insertion</li>
+                <li>Searching</li>
+                <li>Deletion</li>
+                <li>Check for BST</li>
+                <li>Find min and max element</li>
+                <li>Flatten a tree</li>
+                <li>Construct from preorder</li>
+                <li>Catalan no concept</li>
+                <li>Set STL</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>Questions</p>
+            <ul>
+                <li>Structurally identical BST</li>
+                <li>ZigZag order</li>
+                <li>Largest BST in BT</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>Heaps</p>
+            <ul>
+                <li>Introduction to priority queue</li>
+                <li>Heap</li>
+                <li>Remove min and max element</li>
+                <li>Build heap from array </li>
+                <li>Heapsort</li>
+                <li>Running median</li>
+                <li>Kth smallest</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>Challenges</p>
+            <ul>
+                <li>Top k most frequent numbers in stream</li>
+                <li>Merge k sorted arrays</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>Hashtable</p>
+            <ul>
+                <li>Introduction to hash functions</li>
+                <li>Collision handling and separate chaining</li>
+                <li>Rehashing, load factor</li>
+                <li>Unordered Map STL</li>
+                <li>Max frequency character</li>
+                <li>Vertical order print</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>Hashing Problems</p>
+            <ul>
+                <li>Check subarray with sum 0</li>
+                <li>Longest subarray with sum k</li>
+                <li>Longest consecutive subsequence</li>
+                <li>Minimum window substring</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>Tries</p>
+            <ul>
+                <li>Data structure introduction</li>
+                <li>Insertion</li>
+                <li>Searching</li>
+                <li>Phonebook problem</li>
+                <li>Xor subarray problem</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>Questions</p>
+            <ul>
+                <li>Intersection of 2 arrays</li>
+                <li>String window</li>
+                <li>Subarrays with distinct element</li>
+                <li>Digital dictionary</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>Greedy Algorithm</p>
+            <ul>
+                <li>Introduction</li>
+                <li>Activity selection problem</li>
+                <li>Job selection problem</li>
+                <li>0/n Knapsack problem</li>
+                <li>Optimal merge pattern problem</li>
+                <li>Huffman coding problem</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>Challenges</p>
+            <ul>
+                <li>Coin change</li>
+                <li>Max Circles</li>
+                <li>Dividing array</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>Graph - I</p>
+            <ul>
+                <li>Introduction</li>
+                <li>Representation</li>
+                <li>Adjacency list implementation</li>
+                <li>BFS</li>
+                <li>DFS</li>
+                <li>Topological sort</li>
+                <li>Cycle detection in directed and undirected graph</li>
+                <li>Connected components</li>
+                <li>Pairing problem</li>
+                <li>Bipartite graph check</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>Graph - II</p>
+            <ul>
+                <li>Disjoint set introduction</li>
+                <li>Union and find</li>
+                <li>Path compression</li>
+                <li>Union by rank optimisation</li>
+                <li>Implementation</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>Graph - III</p>
+            <ul>
+                <li>Kruskal's algorithm</li>
+                <li>Prim's algorithm</li>
+                <li>Dijkstra's algorithm</li>
+                <li>Bellman ford algorithm</li>
+                <li>Floyd Warshall algorithm</li>
+                <li>Strongly connected component using Kosaraju's algo</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>Challenges</p>
+            <ul>
+                <li>Snakes and ladders problem</li>
+                <li>MST problem</li>
+                <li>Beautiful vertices</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>Dynamic Programming</p>
+            <ul>
+                <li>Introduction</li>
+                <li>Fibonacci problem</li>
+                <li>Minimum steps to 1</li>
+                <li>Minimum coin change</li>
+                <li>Maximum subarray sum</li>
+                <li>Snakes and Ladders</li>
+                <li>0/1 Knapsack</li>
+                <li>LIS and LCS problem</li>
+                <li>Matrix chain multiplication</li>
+                <li>Friends pairing problem</li>
+                <li>Catalan number concept</li>
+                <li>Optimal game strategy</li>
+                <li>Optimal binary search tree</li>
+                <li>All pair shortest path problem</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>Challenges</p>
+            <ul>
+                <li>No. of Binary String</li>
+                <li>LCS w 3 strings</li>
+                <li>Wildcard pattern matching</li>
+                <li>Brackets all over</li>
+                <li>Max length bitonic subsequence</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>String algorithm</p>
+            <ul>
+                <li>Brute force</li>
+                <li>KMP</li>
+                <li>Finite automata</li>
+                <li>Robin karp</li>
+            </ul>
+            <p></p>
+        </li>
+        <li>
+            <p>Advanced Data Structures</p>
+            <ul>
+                <li>Segment Trees</li>
+                <li>Binary Index Tree</li>
+                <li>Mose</li>
+                <li>HLD</li>
+                <li>Fourier Series</li>
+            </ul>
+            <p></p>
+        </li>
+        
+</body>
+</html>
