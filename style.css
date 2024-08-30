@@ -15,8 +15,6 @@ header {
   display: grid;
   grid-template-columns: 3fr 4fr;
   place-items: center;
-  position: sticky;
-  top: 0;
 }
 
 .head_container {
