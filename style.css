@@ -1,4 +1,8 @@
-body {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
     margin: 0;
     font-family: 'Segoe UI', sans-serif;
     background: #f5f5f5;
@@ -42,10 +46,76 @@ body {
   
   .section {
     padding: 2rem;
-    max-width: 800px;
+    max-width: 850px;
     margin: auto;
+    scroll-margin-top: 80px;
+  }
+  .timeline {
+    border-left: 3px solid #0d47a1;
+    padding-left: 20px;
+    margin-top: 1rem;
   }
   
+  .timeline-item {
+    margin-bottom: 1.5rem;
+    padding-left: 10px;
+    position: relative;
+  }
+  
+  .timeline-item::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-color: #0d47a1;
+    border-radius: 50%;
+    position: absolute;
+    left: -9px;
+    top: 5px;
+  }
+  .about-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .profile-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid #0d47a1;
+  }
+  .skills-certifications-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+  }
+  
+  .skills-block ul, .certifications-block ul {
+    padding-left: 1.2rem;
+  }
+  
+  .cert-btn {
+    margin-left: 10px;
+    font-size: 0.85rem;
+    background-color: #0d47a1;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .cert-btn:hover {
+    background-color: #08306b;
+  }
+  .certifications-block ul li {
+    margin-bottom: 1rem; 
+    line-height: 1.5;  
+  }
+  .certifications-block ul {
+    list-style-type: square;
+    padding-left: 1.5rem;
+  }
+    
   .card {
     background: white;
     padding: 1rem;
@@ -109,6 +179,9 @@ body {
   
     nav.active {
       display: flex;
+    }
+    .section{
+      scroll-margin-top: 90px;
     }
   }
   
