@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Alok Kumar | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="icon" type="image/png" href="Assets/favicon.ico"/>
 </head>
 <body>
   <header>
@@ -20,15 +23,19 @@
       </nav>
     </div>
   </header>
+  <button id="topBtn" title="Go to top">↑</button>
 
-  <section class="hero">
+  <section class="hero" data-aos="fade-up">
     <img src="Assets/profile.jpeg" alt="Profile Picture" class="profile-pic" />
     <h2>B.Tech Student | Web Dev & AI Enthusiast</h2>
-    <a href="Assets/resume.pdf" class="btn">Download Resume</a>
-    <a href="#contact" class="btn-outline">Contact Me</a>
+    <div class="hero_buttons">
+      <!-- <a href="Assets/resume.pdf" class="btn">Download Resume</a>    -->
+      <a href="Assets/resume.pdf" class="resume-btn"><i class="fa fa-download"></i>Download Resume</a>      
+      <a href="#contact" class="btn-outline">Contact Me</a>
+    </div>
   </section>
 
-  <section id="about" class="section">
+  <section id="about" class="section" data-aos="fade-up">
     <h2>About Me</h2>
     <div class="about-content">
       <img src="Assets/profile6.jpeg" alt="Alok Kumar" class="profile-img">
@@ -41,7 +48,7 @@
     </div>
   </section>  
 
-  <section id="education" class="section">
+  <section id="education" class="section" data-aos="fade-up">
     <h2>Education</h2>
     <div class="timeline">
       <div class="timeline-item">
@@ -64,7 +71,7 @@
     </div>
   </section>  
 
-  <section id="projects" class="section">
+  <section id="projects" class="section" data-aos="fade-up">
     <h2>Projects</h2>
     <div class="card">
       <h3>Infosec Club Website</h3>
@@ -83,7 +90,7 @@
     </div>
   </section>
 
-  <section id="skills" class="section">
+  <section id="skills" class="section" data-aos="fade-up">
     <h2>Skills & Certifications</h2>
     
     <div class="skills-certifications-grid">
@@ -132,7 +139,7 @@
     </div>
   </section>  
 
-  <section id="contact" class="section">
+  <section id="contact" class="section" data-aos="fade-up">
     <h2>Contact Me</h2>
     <p>Email: <a href="mailto:alok.kumar.23033@iitgoa.ac.in">alok.kumar.23033@iitgoa.ac.in</a></p>
     <p>Instagram: <a href="https://instagram.com/alok02_op">@alok02_op</a></p>
@@ -144,6 +151,10 @@
     <p>© 2025 Alok Kumar</p>
   </footer>
 
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <script src="script.js"></script>
 </body>
 </html>

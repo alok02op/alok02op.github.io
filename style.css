@@ -23,17 +23,35 @@
     justify-content: space-between;
     align-items: center;
   }
-  
-  .navbar nav a {
+  nav a {
     margin: 0 0.5rem;
-    color: white;
     text-decoration: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease;
+    position: relative;
   }
+  
+  nav a:hover {
+    color: #ffcc00; /* Highlight color on hover */
+  }
+  
+  nav a.active {
+    color: #ffcc00;
+    font-weight: bold;
+    border-bottom: 2px solid #ffcc00;
+  }
+  
   
   .hero {
     text-align: center;
     padding: 2rem;
     background: #e3f2fd;
+  }
+  .hero_buttons{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
   }
   
   .profile-pic {
@@ -172,7 +190,11 @@
       border-top: 1px solid white;
       width: 100%;
     }
-  
+    .hero_buttons{
+      flex-direction: column;
+      justify-content: start;
+      align-items: center;
+    }
     .menu-toggle {
       display: block;
     }
@@ -184,4 +206,55 @@
       scroll-margin-top: 90px;
     }
   }
-  
+/* ----------------------------------- */
+/* Extras */
+.hero h2 {
+  font-size: 2.5rem;
+  color: #fff;
+  text-shadow: 0 0 10px #00bcd4, 0 0 20px #00bcd4;
+  animation: glow 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #00bcd4, 0 0 20px #00bcd4;
+  }
+  to {
+    text-shadow: 0 0 20px #00e5ff, 0 0 30px #00e5ff;
+  }
+}
+#topBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #0d47a1;
+  color: white;
+  cursor: pointer;
+  padding: 10px 14px;
+  border-radius: 50%;
+}
+
+#topBtn:hover {
+  background-color: #08306b;
+}
+/* -------------- */
+.resume-btn {
+  background-color: #0d47a1;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: bold;
+}
+
+.resume-btn:hover {
+  background-color: #08306b;
+}
