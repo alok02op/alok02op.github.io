@@ -195,10 +195,12 @@
       justify-content: start;
       align-items: center;
     }
+    .hero h2{
+      font-size: 1.5rem;
+    }
     .menu-toggle {
       display: block;
     }
-  
     nav.active {
       display: flex;
     }
