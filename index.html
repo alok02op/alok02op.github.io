@@ -1,82 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Student Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alok Kumar | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <div id="div_img">
-            <img src="images/img.jpg" alt="My picture">
-        </div>
-        <div class="head_container">
-            <h1>Alok kumar</h1>
-            <p>Mathematics and computing</p>
-            <p>Student at IIT Goa</p>
-        </div>
-    </header>
+  <header>
+    <div class="navbar">
+      <h1>Alok Kumar</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-    <main class="main">
-        <section id="about" style="width: 100%;">
-            <div class="about_container">
-                <h2>About Me</h2>
-                <div>
-                    <h3 style="text-align: center;"><ins>Personal Details</ins></h3>
-                    Name  : Alok Kumar <br>
-                    Place : Brahmpur (Buxar,Bihar) <br>
-                    Email : alok.kumar.23033@iitgoa.ac.in <br>
-                    Instagram : alok02_op
-                </div><br>
-                <div>
-                    <h3 style="text-align: center;"><ins>Academic</ins></h3>
-                    School : D.A.V Alok Public School, Brahmpur (cl - 5to10). <br>
-                    Coaching : Vedantu Innovations Pvt. Ltd. (For JEE) <br>
-                    College : H.D. Jain College, Ara (cl - 11to12) <br>
-                    College : IIT Goa , (For Btech) <br>
-                </div><br>
-                <div>
-                    <h3 style="text-align: center;"><ins>Academic Performance</ins></h3>
-                    Class(10th) : 89 % (CBSE Board) <br>
-                    Class(12th) : 84.6 % (BSEB Board) <br>
-                    JEE Main : 99.69 %ile , rank : 3621, OBC rank : 698 <br>
-                    JEE Advanced : rank : 9399 , OBC rank : 2139 <br>
-                    1st Sem : 8.05 spi. <br>
-                    2nd Sem : 7.09 spi. <br>
-                    3rd Sem : ongoing. <br>
-                </div><br>
-                <div>
-                    <h3 style="text-align: center;"><ins>Hobbies</ins></h3>
-                    <li>I am a passionate M&C student with a keen interest in web 
-                    development and artificial intelligence.</li>
-                    <li>I like to play Cricket <dd>*Played tournament of our college: 
-                        Chakravyuh,CrickVerse(Auction based).</dd></li>
-                </div><br>
-            </div>
-        </section>
-        <section id="projects" style="width: 100%;">
-            <div class="project_container">
-                <h2>Project links</h2>
-                <ol>
-                    <li><button id="button1" onclick="document.location='CS102_project/index.html'">First-Year-csProject</button></li>
-                    <li><button id="button2" onclick="document.location='tic_tac_toe/index.html'"> Tic-Tac-Toe game </button></li>
-                    <li><button id="button3" onclick="document.location='cricket_scorer/index.html'"> Cricket-Scorer </button></li>
-                    <li><button id="button4" onclick="document.location='Youth.html'"> LokSabha election Article </button></li>
-                    <li><button id="button5" onclick="document.location='fee_calculator/index.html'"> fee-calculator </button></li>
-                    <li><button id="button6" onclick="document.location='trip_calculator/index.html'"> trip-calculator </button></li>
-		            <li><button id="button7" onclick="document.location='courseDetails.html'"> C++,DSA course details </button></li>
-                </ol>
-            </div>
-        </section>
-    </main>
+  <section class="hero">
+    <img src="Assets/profile.jpeg" alt="Profile Picture" class="profile-pic" />
+    <h2>B.Tech Student | Web Dev & AI Enthusiast</h2>
+    <a href="Assets/resume.pdf" class="btn">Download Resume</a>
+    <a href="#contact" class="btn-outline">Contact Me</a>
+  </section>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Alok</p>
-        </div>
-    </footer>
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>I’m Alok Kumar from Brahmpur (Buxar, Bihar), currently pursuing B.Tech in Mathematics & Computing at IIT Goa. I enjoy coding, building websites, exploring AI, and playing cricket. Participated in CrickVerse and Chakravyuh tournaments!</p>
+  </section>
 
-  <!-- <script src="scripts.js"></script> -->
+  <section id="education" class="section">
+    <h2>Education & Academics</h2>
+    <ul>
+      <li>D.A.V Alok Public School, Brahmpur (Class 5 to 10)</li>
+      <li>Vedantu (JEE Coaching)</li>
+      <li>H.D. Jain College, Ara (Class 11 & 12)</li>
+      <li>IIT Goa (B.Tech, Mathematics & Computing)</li>
+    </ul>
+    <p>Class 10: 89% | Class 12: 84.6%<br>
+    JEE Main: 99.69%ile (Rank 3621, OBC: 698)<br>
+    JEE Adv: Rank 9399 (OBC: 2139)<br>
+    Sem Scores: 8.05, 7.90, 9.56, 4th Ongoing</p>
+  </section>
+
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="card">
+      <h3>Infosec Club Website</h3>
+      <p>Built with HTML, CSS, JavaScript. Provides updates and resources for IIT Goa’s Infosec Club.</p>
+      <a class="btn" href="https://project-infosec.vercel.app">View Site</a>
+    </div>
+    <div class="card">
+      <h3>Time Slot Booking System 2024</h3>
+      <p>Web app for real-time time slot booking. Built during CS102.</p>
+      <a class="btn" href="Projects/CS102_project/index.html">View Site</a>
+    </div>
+    <div class="card">
+      <h3>Tic-Tac-Toe Game</h3>
+      <p>Fun side project made while learning JavaScript.</p>
+      <a class="btn" href="Projects/tic_tac_toe/index.html">Play</a>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <h2>Skills & Certifications</h2>
+    <ul>
+      <li><strong>Languages:</strong> C, C++, Python, HTML, CSS, JS, LaTeX, Git, Bash</li>
+      <li><strong>Frameworks:</strong> ReactJS, NodeJS, ExpressJS, MongoDB</li>
+      <li><strong>Concepts:</strong> Computer Networks (Basics)</li>
+      <li><strong>Courses:</strong> Real/Multivariable Analysis, Discrete Math, Algorithms</li>
+    </ul>
+    <h3>Certifications</h3>
+    <ul>
+      <li><a href="Assets/coderush.pdf">Code Rush (Participation)</a></li>
+      <li><a href="Assets/snapcodeShowdown.pdf">Snapcode Showdown (Rank 2)</a></li>
+      <li><a href="Assets/fizzbuzz.pdf">Fizzbuzz (Participation)</a></li>
+    </ul>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:alok.kumar.23033@iitgoa.ac.in">alok.kumar.23033@iitgoa.ac.in</a></p>
+    <p>Instagram: <a href="https://instagram.com/alok02_op">@alok02_op</a></p>
+    <p>Mobile  No.: <a href="tel:7004730523">7004730523</a></p>
+    <a href="Assets/resume.pdf" class="btn">Download Resume</a>
+  </section>
+
+  <footer>
+    <p>© 2025 Alok Kumar</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>

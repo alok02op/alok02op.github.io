@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="booking.css">
+</head>
+<body>
+    <div id="time-table">
+        <fieldset>
+            <h1>TIMETABLE</h1>
+            <h3>(1st Year)</h3>
+            <div class="container">
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>8-9am</th>
+                        <th>9-10am</th>
+                        <th>10am-1pm</th>
+                        <th rowspan="6">L<br>U<br>N<br>C<br>H<br><br>B<br>R<br>E<br>A<br>K</th>
+                        <th>2-3pm</th>
+                        <th>3-4pm</th>
+                        <th>4-5pm</th>
+                        <th>5-6pm</th>
+                    </tr>
+                    <tr>
+                        <td style="background-color: rgb(233, 234, 206);font-family: forte ;color: rgb(47, 8, 84);">MONDAY</td>
+                        <td style="background-color: rgb(230, 167, 167);"></td>
+                        <td style="background-color: rgb(230, 167, 167);"></td>
+                        <td>LAB</td>
+                        <td>EE 101</td>
+                        <td>PH 102</td>
+                        <td>BIO 101</td>
+                        <td>NO 102</td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: rgb(233, 234, 206);font-family: forte ;color: rgb(47, 8, 84);">TUESDAY</td>
+                        <td style="background-color: rgb(230, 167, 167);"></td>
+                        <td>CS 102</td>
+                        <td>LAB</td>
+                        <td style="background-color: rgb(230, 167, 167);"></td>
+                        <td>EE 101</td>
+                        <td>PH 102</td>
+                        <td>NO 102</td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: rgb(233, 234, 206);font-family: forte ;color: rgb(47, 8, 84);">WEDNESDAY
+                        </td>
+                        <td style="background-color: rgb(230, 167, 167);"></td>
+                        <td>BIO 101</td>
+                        <td>LAB</td>
+                        <td>ME 102</td>
+                        <td>EE 101</td>
+                        <td colspan="2">MA 103</td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: rgb(233, 234, 206);font-family: forte ;color: rgb(47, 8, 84);">THURSDAY
+                        </td>
+                        <td>CS102</td>
+                        <td>PH 102</td>
+                        <td>LAB</td>
+                        <td>CS 102</td>
+                        <td>BIO 101</td>
+                        <td>ELPP</td>
+                        <td>NO 102</td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: rgb(233, 234, 206);font-family: forte ;color: rgb(47, 8, 84);">FRIDAY</td>
+                        <td style="background-color: rgb(230, 167, 167);"></td>
+                        <td>ELPP</td>
+                        <td>LAB</td>
+                        <td>EE 101</td>
+                        <td>CS 102</td>
+                        <td colspan="2">MA 103</td>
+                    </tr>
+                </table>
+                <div class="empty"></div>
+            </div>
+            <div id="nav">
+                <ul>
+                    <li style="color: rgb(181, 227, 170);">Timings</li>
+                    <li style="color: rgb(231, 234, 154);"> Days</li>
+                    <li style="color: rgb(230, 167, 167);">Free Slots</li>
+                </ul>
+            </div>
+            
+    
+             
+        </fieldset>
+    </div>
+    <div id="bookslot">
+        <div class="popup" id="popup">
+            <img src="tick.png">
+            <h2>Thank you </h2>
+            <p>Slot booked sucessfully !</p>
+            <button type="button" onclick="closePopup()">OK</button>
+        </div>
+        <h1 class="heading">Book The Slot</h1>
+        <div class="msg_container">
+            <h2>MONDAY</h2>
+            <p>
+                WORKING DAY <br> Free periods are from 8 to 10 am.
+            </p>
+        </div>
+        <section class="circular-slider">
+            <div class="slider">
+                <div class="menu_items">
+                    MONDAY
+                </div>
+                <div class="menu_items">
+                    TUESDAY
+                </div>
+                <div class="menu_items">
+                    WEDNESDAY
+                </div>
+                <div class="menu_items">
+                    THURSDAY
+                </div>
+                <div class="menu_items">
+                    FRIDAY
+                </div>
+                <div class="menu_items">
+                    SATURDAY
+                </div>
+                <div class="indicator">
+                    <div class="indicator-fill"></div> 
+                </div>
+                <button id="reset">New Week</button>
+            </div>
+        </section>
+        <div class="section">
+            <h1>Slots Booking</h1>
+            <div class="box">
+                <div  id="box1"></div>
+                <div id="box2"></div>
+                <div id="box3"></div>
+            </div>
+            <div class="button">
+                <button id="button1">Book</button>
+                <button id="button2">Book</button>
+                <button id="button3">Book</button>
+            </div>
+        </div>
+    </div>
+    <script src="booking.js"></script>
+</body>
+
+</html>
