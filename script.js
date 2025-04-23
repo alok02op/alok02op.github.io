@@ -1,2 +1,4 @@
-// Add future interactivity here
-console.log("Portfolio loaded!");
+function toggleMenu() {
+    document.getElementById("nav-links").classList.toggle("active");
+  }
+  
