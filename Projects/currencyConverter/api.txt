@@ -1,0 +1,2 @@
+https://v6.exchangerate-api.com/v6/1d7d4b3de70cafecb8750e04/latest/INR
+https://flagsapi.com/IN/flat/64.png

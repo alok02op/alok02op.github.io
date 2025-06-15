@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f4e4ba;
+}
+
+.container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 40vh;
+    min-width: 40vh;
+}
+
+.container h2 {
+    text-align: center;
+    color: maroon;
+}
+
+.amount p {
+    padding: 0.5rem 0rem;
+}
+
+form select, input, button {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+
+form input {
+    height: 2.5rem;
+    border: 1px solid lightgray;
+    font-size: 1rem;
+    padding-left: 0.5rem;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+.select-container img {
+    max-width: 2.5rem;
+}
+.select-container select {
+    font-size: 1rem;
+    width: auto;
+}
+.select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 0.75rem;
+}
+
+.dropdown i {
+    font-size: 1.25rem;
+    margin-top: 1rem;
+}
+
+.msg {
+    margin: 2rem 0 2rem 0;
+}
+
+form button {
+    height: 2.5rem;
+    background-color: #af4d98;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+form button:active {
+    transform: scale(0.98);
+}
+#swapbtn {
+    cursor: pointer;
+}
